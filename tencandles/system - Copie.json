@@ -1,0 +1,66 @@
+{
+  "id": "tencandles-evilbram",
+  "title": "Ten Candles Unofficial",
+  "description": "An Unofficial system for the Ten Candles tragic horror storytelling game.",
+  "version": "0.1.5",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "documentTypes": {
+    "Actor": {
+      "character": {}
+    },
+    "Item": {
+      "virtue": {},
+      "vice": {},
+      "brink": {},
+      "moment": {},
+      "gear": {}
+    }
+  },
+  "authors": [
+    {
+      "name": "Evilbram",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "Francais",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/tencandles.js",
+    "module/pause-customizer.js"
+  ],
+  "styles": [
+    {
+      "src": "css/tencandles.css"
+    },
+    {
+      "src": "css/pause-customizer.css"
+    }
+  ],
+  "socket": true,
+  "background": "systems/tencandles/art/banner.jpeg",
+  "manifest": "https://raw.githubusercontent.com/ctotone/foundry/refs/heads/main/tencandles/system.json",
+  "download": "https://github.com/ctotone/foundry/archive/refs/tags/dev.zip",
+  "flags": {}
+}
