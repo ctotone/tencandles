@@ -1,5 +1,5 @@
 {
-  "id": "tencandles-evilbram",
+  "id": "tencandles",
   "title": "Ten Candles",
   "description": "Système de jeu Ten Candles par Evilbram.",
   "version": "0.1.5",
@@ -59,7 +59,7 @@
     }
   ],
   "socket": true,
-  "background": "systems/tencandles-evilbram/art/banner.jpeg",
+  "background": "systems/tencandles/art/banner.jpeg",
   "manifest": "https://raw.githubusercontent.com/ctotone/foundry/refs/heads/main/tencandles/system.json",
   "download": "https://github.com/ctotone/foundry/archive/refs/tags/dev.zip",
   "flags": {}
