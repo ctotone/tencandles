@@ -1,0 +1,102 @@
+{
+  "TENCANDLES": {
+    "Sheet": {
+      "ActorSheetLabel": "Fiche de personnage Ten Candles"
+    },
+    "Setting": {
+      "LitCandlesName": "Bougies allumées",
+      "LitCandlesHint": "Le nombre de bougies actuellement allumées (10 maximum).",
+      "DicePenaltyName": "Malus de dés",
+      "DicePenaltyHint": "Le nombre de dés perdus à cause des 1 obtenus."
+    },
+    "Roll": {
+      "NoCandles": "Il n’y a plus de lumière pour y voir. Aucun jet ne peut être effectué. La partie est terminée.",
+      "NoDicePenalty": "Il ne reste plus aucun dé à cause de l’obscurité accumulée. Une bougie doit être éteinte pour réinitialiser la réserve de dés.",
+      "Flavor": "effectue un jet...",
+      "RollingDice1": "Lance",
+      "RollingDice2": " dés...",
+      "Success": "Succès !",
+      "Failure": "Échec !",
+      "OnesMessage": "Des 1 ont été obtenus ! L’obscurité devient plus forte...",
+      "PenaltyMessage": "Réserve de dés réduite de $1. Le prochain jet utilisera $2 dés.",
+      "NoDiceReset": "Il ne reste plus aucun dé ! Une bougie doit être éteinte pour réinitialiser la réserve de dés.",
+      "NoPreviousRoll": "Aucun jet précédent à répéter.",
+      "Repeatroll": "Dernier jet répété",
+      "PenaltyText": "Dés exclus",
+      "CandlesText": "Bougies"
+    },
+    "ActorSheet": {
+      "CharNamePlaceholder": "Nom du personnage",
+      "RollButton": "Effectuer un jet",
+      "TabMain": "Principal",
+      "TabGear": "Équipement",
+      "Items": "Objets",
+      "VirtuesLabel": "Vertus",
+      "VirtuesPlaceholder": "Une vertu...",
+      "VicesLabel": "Vices",
+      "VicesPlaceholder": "Un vice...",
+      "BrinksLabel": "Points de rupture",
+      "BrinksPlaceholder": "Un point de rupture...",
+      "TruthsLabel": "Vérités",
+      "TruthsPlaceholder": "Quelles vérités le personnage a-t-il établies...",
+      "NoGear": "Aucun équipement. Faites glisser des objets d’équipement depuis le répertoire des objets pour les ajouter.",
+      "CreateGear": "Créer un équipement",
+      "NewGearName": "Nouvel équipement",
+      "RepeatLastRoll": "Répéter le dernier jet",
+      "BrinkRemoved": "Un Point de rupture a été consommé après l’échec de la répétition.",
+      "BrinkRemoveFailed": "Impossible de retirer automatiquement le Point de rupture. Le MJ a été prévenu.",
+      "MomentsLabel": "Moments",
+      "MomentsPlaceholder": "Un moment...",
+      "HopeLabel": "Espoir",
+      "MomentBlocksHope": "Impossible d’activer l’Espoir tant qu’un Moment existe.",
+      "RepeatNotAllowed": "Impossible de répéter le dernier jet : cette action n’est autorisée que lorsque le personnage n’a ni Vertus ni Vices."
+    },
+    "Chat": {
+      "ReRolled": "Relancé"
+    },
+    "Items": {
+      "Virtue": "Vertu",
+      "Vice": "Vice",
+      "Brink": "Point de rupture",
+      "Moment": "Moment",
+      "Gear": "Équipement",
+      "Name": "Nom",
+      "Type": "Type",
+      "Description": "Description",
+      "DescriptionPlaceholder": "Décrivez cet objet...",
+      "Quantity": "Quantité",
+      "Weight": "Poids",
+      "Total": "Total",
+      "DeleteConfirmTitle": "Supprimer l’objet",
+      "DeleteConfirmMessage": "Êtes-vous sûr de vouloir supprimer {name} ?",
+      "InvalidType": "Ce type d’objet n’est pas valide pour les personnages de Ten Candles.",
+      "AddedToList": "{itemName} a été ajouté à la liste {listType}.",
+      "CreateFailed": "Impossible de créer l’objet."
+    },
+    "Warnings": {
+      "SingleItemExists": "Un élément de type {itemType} existe déjà pour ce personnage"
+    },
+    "GM": {
+      "TrackerTitle": "Suivi des bougies",
+      "NarratorAlias": "Le Narrateur",
+      "LitCandles": "Bougies allumées",
+      "CandleTitle": "Bougie ",
+      "ExtinguishButton": "Éteindre une bougie",
+      "CandlesRemain": " bougies restantes.",
+      "DicePenaltyDisplay": "Malus de dés :",
+      "AvailableDice": " dés disponibles pour les jets",
+      "LightGone": "La lumière a disparu.",
+      "ExtinguishMessageBase": "Une bougie a été éteinte. Il en reste {{count}}. L’obscurité grandit.",
+      "ExtinguishMessageReset": "La réserve de dés est réinitialisée à {{count}} dés.",
+      "ExtinguishMessageZero": "Il ne reste plus aucune lumière. L’obscurité a tout consumé.",
+      "LightMessage": "Des bougies ont été allumées. Il en reste maintenant {{count}}.",
+      "CandleOut1": "Une bougie s’est éteinte, il en reste encore ",
+      "CandleOut2": "L’obscurité grandit.",
+      "CandleOut3": "La bougie 3 est éteinte.",
+      "Mreserva1": "La réserve de dés est réinitialisée à",
+      "Mreserva2": "Il ne reste plus aucune lumière. L’obscurité consume tout.",
+      "Mvelaencendida1": "Une bougie a été allumée, il y en a maintenant ",
+      "Mvelaencendida2": " bougies."
+    }
+  }
+}
