@@ -1,7 +1,7 @@
 {
   "id": "tencandles-evilbram",
   "title": "Ten Candles",
-  "description": "An Unofficial system for the Ten Candles tragic horror storytelling game.",
+  "description": "Système de jeu Ten Candles par Evilbram.",
   "version": "0.1.5",
   "compatibility": {
     "minimum": "14",
