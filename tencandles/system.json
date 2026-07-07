@@ -60,7 +60,7 @@
   ],
   "socket": true,
   "background": "systems/tencandles/art/banner.jpeg",
-  "manifest": "https://raw.githubusercontent.com/bernardoclon/tencandles/refs/heads/main/system.json",
-  "download": "https://github.com/bernardoclon/tencandles/archive/refs/tags/V0.1.5.zip",
+  "manifest": "https://raw.githubusercontent.com/ctotone/foundry/refs/heads/main/tencandles/system.json",
+  "download": "https://github.com/ctotone/foundry/archive/refs/tags/dev.zip",
   "flags": {}
 }
